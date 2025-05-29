@@ -384,3 +384,23 @@ footer {
   0%   { transform: translateX(0); }
   100% { transform: translateX(-100%); }
 }
+/* VIDEO SECTION */
+.tentang-video {
+    width: 100%;
+    max-width: 280px; /* pas untuk HP */
+    height: auto;
+    margin: 0 auto 20px;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(249, 168, 37, 0.15);
+  }
+  
+  
+  
+  /* RESPONSIVE VIDEO */
+  @media (max-width: 768px) {
+    .tentang-video {
+      max-height: 250px;
+    }
+  }
+  
