@@ -194,6 +194,66 @@ h2 {
   margin-bottom: 15px;
 }
 
+/* PROMO SECTION */
+.promo-section {
+  padding: 40px 20px;
+  background-color: #f8f8f8;
+  text-align: center;
+}
+
+.promo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.promo-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 8px 20px rgba(249, 168, 37, 0.15);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 280px;
+}
+
+.promo-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 14px 30px rgba(249, 168, 37, 0.3);
+}
+
+.promo-card img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: contain;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 10px rgba(249, 168, 37, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.promo-card:hover img {
+  transform: scale(1.05);
+}
+
+.promo-card h3 {
+  font-size: 1.4rem;
+  margin: 0 0 10px;
+  color: #e68a00;
+}
+
+.promo-card p {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #bf6c00;
+  margin-bottom: 15px;
+}
+
 /* BUTTON */
 .buy-button {
   background: linear-gradient(90deg, #f57f17, #f9a825);
@@ -298,9 +358,11 @@ footer {
 
   nav a {
     font-size: 1.2rem;
-    padding: 10px 0
+    padding: 10px 0;
   }
 }
+
+/* MARQUEE */
 .marquee {
   overflow: hidden;
   white-space: nowrap;
@@ -311,11 +373,11 @@ footer {
   display: inline-block;
   padding-left: 100%;
   animation: marquee 12s linear infinite;
-  font-weight: 800;       /* Lebih tebal */
-  font-size: 1.5rem;        /* Ukuran besar */
+  font-weight: 1000;
+  font-size: 4rem;
   color: #e65100;
-  text-transform: uppercase; /* Optional: huruf kapital */
-  letter-spacing: 2px;       /* Spasi antar huruf */
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 @keyframes marquee {
