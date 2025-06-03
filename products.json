@@ -1,14 +1,20 @@
 [
   {
     "name": "KASAVHAAA BBQ",
-    "price": "Rp 11.491",
+    "price": "Rp 9.982",
     "image": "images/BBQ.jpeg",
-    "link": "https://shopee.co.id/Cemilan-Keripik-Singkong_KASAVHAA-i.215201118.44051349170"
+    "link": "https://shopee.co.id/CEMILAN-KERIPIK-SINGKONG-KASVHAAA-KEMASAN-250gr-i.215201118.27034492615"
   },
   {
     "name": "KASAVHAAA BALADO",
-    "price": "Rp 11.491",
+    "price": "Rp 9.982",
     "image": "images/OR.jpeg",
+    "link": "https://shopee.co.id/CEMILAN-KERIPIK-SINGKONG-KASVHAAA-KEMASAN-250gr-i.215201118.27034492615"
+  },
+  {
+    "name": "KASAVHAAA ORIGINAL",
+    "price": "Rp 9.982",
+    "image": "images/ORG.jpeg",
     "link": "https://shopee.co.id/CEMILAN-KERIPIK-SINGKONG-KASVHAAA-KEMASAN-250gr-i.215201118.27034492615"
   }
 ]
